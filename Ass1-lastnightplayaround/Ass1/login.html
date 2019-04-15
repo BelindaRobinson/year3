@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title> Belinda's Stock Page </title>
+	
+	<script src="checkLogin.js"></script>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="product_form">  <!--product_form no such thing needs fixing-->
+	Belinda's Stock Page 
+    <br/>
+   
+	<br/>
+	<label>Username:</label>
+	<input type="text" id="Username"> <!--username by be called the wrong thing but probably not-->
+	<br/>
+
+	<label>Password:</label>
+	<input type="text" id="Password">
+	<br/>
+	<br/>
+	<button onclick="checklogin()"> Ok </button> <!--chicklogin.php is what this is referencing -->
+
+	<form action="checklogin.php" method="GET"></form> <!--ADDED FROM WEEK1-->
+
+	</div>
+	
+	<div id="getStock"></div> <!--if the login is correct it will bring up the users stock list stock maybe the wrong name-->
+</body>
+</html>	

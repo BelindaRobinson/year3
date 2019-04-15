@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Find Product Information</title>
+   
+    <script src="checkItem.js"></script>
+    <link href="checkItem.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<div id="product_form">
+	Check for items in stock and show store and location
+	<br/>
+	<br/>
+	<label>Product Code </label>
+	<input type="text" id="code"">
+	<br/>
+	
+    <label>In stock?</label>
+    <input type="text" id="in_stock"/>
+    <br/>
+    <br/>
+    <button onclick="checkStock()"> Check </button>
+
+    </div>  
+    
+    <div id="stock_list"> </div>    
+</body>
+</html>

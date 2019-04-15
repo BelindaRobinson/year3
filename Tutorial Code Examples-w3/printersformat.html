@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Auto suggest</title>
+	<script src="printersformat.js"></script>
+</head>
+<body>
+Enter text : 
+<input type="text" id="usertext" autocomplete="off" onKeyUp='Javascript:suggestQueues(event)'>
+<p>
+Match input
+<br>
+<input type="radio" name="matchgroup" value="start" checked>at start of name<br>
+<input type="radio" name="matchgroup" value="anywhere">anywhere in name
+
+<h2>Matching queues</h2>
+<div id="suggestions">
+</div>
+</body>
+</html>

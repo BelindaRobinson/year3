@@ -1,0 +1,16 @@
+body {
+    font-family	: Verdana, arial, sans-serif;
+}
+
+label {
+    display	: block;
+    float 	: left;
+    text-align 	: right;
+    width 	: 150px;
+    margin-right : 5px;
+}
+
+input {
+    width 	: 200px;
+    margin-bottom : 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML5 and CSS Rollovers</title>
+<style>
+#animallist li:hover{
+    color:red;
+}
+
+#details{
+    width:300px;
+    height:150px;
+    border: 1px solid black;
+    padding: 0px 10px 5px 10px;
+}
+</style>
+
+<script src="SimpleJS_2.js"></script>
+
+</head>
+
+<body>
+<h1>Animals!</h1>
+<div id="welcome"> </div>
+<ul id="animallist">
+<li data-name="Frank" data-color="Grey" data-sound="Meow">Cat</li>
+<li data-name="Angus" data-color="Black" data-sound="Woof">Dog</li>
+<li data-name="Rufus" data-color="Yellow" data-sound="Glub glub">Fish</li>
+<li data-name="Houdini" data-color="Black and White" data-sound="Squeak">Mouse</li>
+</ul>
+<br><br>
+<div id="details"></div>
+<br>
+<div id="getinfo">
+<label>What is your name?</label> <input type = "text" id = "person" onblur="doWelcome()"><br>
+</div> 
+</body>
+
+</html>
